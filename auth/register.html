@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+    <style>
+        input {
+            width: 100%;
+            display: block;
+            border: 1px solid #999; /* Add border */
+            border-radius: 20px; /* Rounded borders - adjust as needed */
+            padding: 6px 30px;
+            font-family: Poppins;
+            box-sizing: border-box;
+            margin-bottom: 15px; /* Add some space between the inputs */
+        }
+    
+        input:focus {
+            border-color: #222; /* Change border color on focus */
+            box-shadow: 0 0 8px 0 rgba(34, 34, 34, 0.2); /* Optional: Add a subtle shadow on focus */
+        }
+    </style>
+    
+
+    <div class="main">
+
+        <!-- Sign up form -->
+        <section class="sign-up">
+            <div class="container">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Sign up meowww</h2>
+                        <form method="POST" class="register-form" id="register-form">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="name" id="name" placeholder="Username"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="pass" id="pass" placeholder="Password"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" name="email" id="email" placeholder="E-mail"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="facebook"><i class="zmdi zmdi-facebook-box"></i></label>
+                                <input type="facebook" name="facebook" id="facebook" placeholder="Facebook Contact"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="line_id"><i class="fa-brands fa-line"></i></label>
+                                <input type="text" name="line_id" id="line_id" placeholder="Line ID"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="Phone"><i class="zmdi zmdi-smartphone"></i></label>
+                                <input type="Phone" name="phone_number" id="phone_number" placeholder="Phone Number"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="age"><i class="fa-solid fa-image-portrait"></i></label>
+                                <input type="age" name="age" id="age" placeholder="Age"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="sex"><i class="zmdi zmdi-male-female"></i></label>
+                                <input type="sex" name="age" id="sex" placeholder="Male/Female/Other"/>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="images/cat3.png" alt="sing up image"></figure>
+                        <a href="login.html" class="signup-image-link">I am already member</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
