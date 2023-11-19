@@ -1348,7 +1348,10 @@ pre {
 
 .table-sm th,
 .table-sm td {
-  padding: 0.3rem; }
+  padding: 0.3rem; 
+  
+}
+  
 
 .table-bordered {
   border: 1px solid #dee2e6; }
